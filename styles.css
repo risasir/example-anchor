@@ -1,0 +1,74 @@
+.btn,button {
+      display: inline-block;/*ボックスの表示形式を横並びにする。*/
+      width: auto;/*幅を自動にする*/
+      padding: 10px 20px;/*ボックスの内側の余白を指定する*/
+      border: none;/*ボーダーの幅、スタイル、色の指定*/
+      border-radius: 5px;/*ボーダーの角を丸める*/
+      font-size: 13px;/*フォントのサイズ*/
+      line-height: 18px;/*行の高さを指定する*/
+      font-weight: 500;/*フォントの太さの指定*/
+      text-decoration: none;/*テキストの装飾*/
+      background: #757e8e;/*背景の色*/
+      color: #fff;/*文字の色*/
+  }
+
+.donation input {
+  display: inline-block;
+  background:  0 0;
+  border:  none;
+  width: 1.4rem;
+  padding: 3px;
+  }
+
+input {line-height: normal;}
+
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+
+.home #top h1 {
+    padding-top: 50px;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 2;
+}
+
+#top h1 {
+    margin-left: 0;
+}
+
+#top h1 {
+    position: relative;
+    z-index: 2;
+    font-size: 32px;
+    line-height: 44px;
+    font-weight: 300;
+    color: #586374;
+}
+h1 {
+    font-size: 2em;
+    margin: .67em 0;
+}
+
+ #top nav img {
+     padding-right: 40px;
+     float: left;
+     list-style: none;
+     }
+
+   #top nav li {
+       padding-right: 40px;
+       float: left;
+       list-style: none;
+}
+
+#top .screenie {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    z-index: 1;
+    opacity: .6;
+    -webkit-animation: slide 1.2s;
+}
