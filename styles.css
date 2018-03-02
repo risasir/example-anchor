@@ -1,3 +1,7 @@
+body{
+  font: 15px/25px "Helvetica Neue",sans-serif;
+}
+
 .btn,button {
       display: inline-block;/*ボックスの表示形式を横並びにする。*/
       width: auto;/*幅を自動にする*/
@@ -71,4 +75,45 @@ h1 {
     z-index: 1;
     opacity: .6;
     -webkit-animation: slide 1.2s;
+}
+
+section.fueatures article {
+    margin-bottom: 30px;
+}
+
+section.fueatures article img {
+    position: relative;
+    top: 4px;
+    float: left;
+    margin-right: 15px;
+    width: 24px;
+    height: 24px;
+    border: 0;
+}
+
+ section.fueatures h2 {
+    float: left;
+    padding-bottom: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 34px;
+}
+
+
+
+section.fueatures p {
+    clear: both;
+    padding-left: 39px;
+    padding-bottom: 0;
+    font-size: 13px;
+    line-height: 19px;
+}
+
+*{
+   margin: 0;
+   padding: 0;
+   -webkit-font-smoothing: antialiased;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
 }
