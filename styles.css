@@ -1,4 +1,8 @@
-
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
 
 head{
   display: none;
@@ -130,7 +134,8 @@ section.fueatures article img {
     line-height: 34px;
 }
 
-section.fueatures p {
+section.fueatures p,
+section.fueatures .box{
     clear: both;
     padding-left: 39px;
     padding-bottom: 0;
@@ -155,7 +160,55 @@ section.fueatures p {
     background: #eee;
 }
 
+#carbonads .carbon-poweredby{
+  display: block;
+  margin-top: 10px;
+}
+
 .fueatures.wrap article{
     float: left;
     width: 224px;
+}
+
+.wrap{
+  width: 1000px;
+}
+
+#content,
+.center,
+.wrap {
+  margin: 0 auto 25px;
+  overflow: hidden;
+}
+
+#footer{
+  background: #f8f9fa;
+  padding: 40px 0 10px;
+}
+
+#footer small{
+  float: left;
+  color: #b3bac1;
+}
+
+#footer nav{
+  float: right;
+}
+
+#footer nav a{
+  margin-right: 40px;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #6e7685;
+}
+
+.wrap .donation{
+  display: inline-block;
+  background-color: #fff;
+  padding: 4px 12px 4px 13px;
+  border-radius: 0 5px 5px 0;
+  margin-left: -8px;
+  font-size: 13px;
+  font-weight: 500;
 }
